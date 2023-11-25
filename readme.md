@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto se encarga de la gestión de la asistencia en una institución educativa. Permite registrar las faltas de asistencia de los estudiantes y calcular el porcentaje de faltas por asignatura.
+Este proyecto se encarga de la gestión de la asistencia. Permite registrar las faltas de asistencia de los estudiantes y calcular el porcentaje de faltas por asignatura.
 
 ## Estructura del proyecto
 
