@@ -1,233 +1,284 @@
-[
-    {
-        "Fecha": "26/09/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Empresa e iniciativa emprendedora",
-        "Hora_inicio": "19:40",
-        "Hora_fin": "20:35"
+{
+    "Asistencia": [
+        {
+            "Fecha": "26/09/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "26/09/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "16/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "16/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "16/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "16/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "16/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "16/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "19/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "19/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "19/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "19/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "19/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "19/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "20/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "20/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "20/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "20/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "20/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "20/10/2023",
+            "Asistencia": "Asistencia JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "25/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "27/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "27/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "27/10/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "02/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "06/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "06/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "15/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "15/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "23/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "23/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "23/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 0.9166666666666666
+        },
+        {
+            "Fecha": "24/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 0.9166666666666666
+        }
+    ],
+    "Faltas_no_justificadas": {
+        "Desarrollo web en entorno cliente": 2.75,
+        "Desarrollo web en entorno servidor": 7.333333333333334,
+        "Despliegue de aplicaciones web": 4.583333333333333,
+        "Diseño de interfaces web": 0.9166666666666666,
+        "Empresa e iniciativa emprendedora": 3.6666666666666665,
+        "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
-    {
-        "Fecha": "26/09/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Empresa e iniciativa emprendedora",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "16/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Diseño de interfaces web",
-        "Hora_inicio": "15:30",
-        "Hora_fin": "16:25"
-    },
-    {
-        "Fecha": "16/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno cliente",
-        "Hora_inicio": "16:25",
-        "Hora_fin": "17:20"
-    },
-    {
-        "Fecha": "16/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Despliegue de aplicaciones web",
-        "Hora_inicio": "17:20",
-        "Hora_fin": "18:15"
-    },
-    {
-        "Fecha": "16/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Despliegue de aplicaciones web",
-        "Hora_inicio": "18:45",
-        "Hora_fin": "19:40"
-    },
-    {
-        "Fecha": "16/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "19:40",
-        "Hora_fin": "20:35"
-    },
-    {
-        "Fecha": "16/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "19/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "15:30",
-        "Hora_fin": "16:25"
-    },
-    {
-        "Fecha": "19/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "16:25",
-        "Hora_fin": "17:20"
-    },
-    {
-        "Fecha": "19/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno cliente",
-        "Hora_inicio": "17:20",
-        "Hora_fin": "18:15"
-    },
-    {
-        "Fecha": "19/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno cliente",
-        "Hora_inicio": "18:45",
-        "Hora_fin": "19:40"
-    },
-    {
-        "Fecha": "19/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Diseño de interfaces web",
-        "Hora_inicio": "19:40",
-        "Hora_fin": "20:35"
-    },
-    {
-        "Fecha": "19/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Empresa e iniciativa emprendedora",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "20/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Diseño de interfaces web",
-        "Hora_inicio": "15:30",
-        "Hora_fin": "16:25"
-    },
-    {
-        "Fecha": "20/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Diseño de interfaces web",
-        "Hora_inicio": "16:25",
-        "Hora_fin": "17:20"
-    },
-    {
-        "Fecha": "20/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno cliente",
-        "Hora_inicio": "17:20",
-        "Hora_fin": "18:15"
-    },
-    {
-        "Fecha": "20/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Despliegue de aplicaciones web",
-        "Hora_inicio": "18:45",
-        "Hora_fin": "19:40"
-    },
-    {
-        "Fecha": "20/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "19:40",
-        "Hora_fin": "20:35"
-    },
-    {
-        "Fecha": "20/10/2023",
-        "Asistencia": "Asistencia JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "25/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Despliegue de aplicaciones web",
-        "Hora_inicio": "18:45",
-        "Hora_fin": "19:40"
-    },
-    {
-        "Fecha": "27/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Despliegue de aplicaciones web",
-        "Hora_inicio": "18:45",
-        "Hora_fin": "19:40"
-    },
-    {
-        "Fecha": "27/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "19:40",
-        "Hora_fin": "20:35"
-    },
-    {
-        "Fecha": "27/10/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "02/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Empresa e iniciativa emprendedora",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "06/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "19:40",
-        "Hora_fin": "20:35"
-    },
-    {
-        "Fecha": "06/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "15/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "19:40",
-        "Hora_fin": "20:35"
-    },
-    {
-        "Fecha": "15/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno servidor",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "23/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno cliente",
-        "Hora_inicio": "17:20",
-        "Hora_fin": "18:15"
-    },
-    {
-        "Fecha": "23/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Desarrollo web en entorno cliente",
-        "Hora_inicio": "18:45",
-        "Hora_fin": "19:40"
-    },
-    {
-        "Fecha": "23/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Empresa e iniciativa emprendedora",
-        "Hora_inicio": "20:35",
-        "Hora_fin": "21:30"
-    },
-    {
-        "Fecha": "24/11/2023",
-        "Asistencia": "Asistencia NO JUSTIFICADA",
-        "Clase": "Despliegue de aplicaciones web",
-        "Hora_inicio": "18:45",
-        "Hora_fin": "19:40"
+    "Porcentaje_faltas": {
+        "Desarrollo web en entorno cliente": 2.1999999999999997,
+        "Desarrollo web en entorno servidor": 4.583333333333334,
+        "Despliegue de aplicaciones web": 5.092592592592593,
+        "Diseño de interfaces web": 0.5555555555555555,
+        "Empresa e iniciativa emprendedora": 6.111111111111111,
+        "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     }
-]
+}

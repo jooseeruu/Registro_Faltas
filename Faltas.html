@@ -1,56 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Faltas de Asistencia</title>
+    <title>Registro de Asistencia</title>
 </head>
 <body>
-  <h1>Registro de Faltas</h1>
-  <div id="faltas-container"></div>
+    <h1>Registro de Asistencia</h1>
+    <div id="content"></div>
 
-  <script>
-    fetch('registro_faltas.json')
-      .then(response => response.json())
-      .then(data => {
-        const faltasContainer = document.getElementById('faltas-container');
-        for (const asignatura in data) {
-          const { justificadas, no_justificadas } = data[asignatura];
-          const totalFaltas = justificadas.length + no_justificadas.length;
-          const porcentajeNoJustificadas = (no_justificadas.length / totalFaltas) * 100;
+    <script>
+        // Lee el archivo JSON
+        fetch('asistencia.json')
+            .then(response => response.json())
+            .then(data => {
+                let content = document.getElementById('content');
+                let porcentaje_faltas = data['Porcentaje_faltas'];
+                let faltas_no_justificadas = data['Faltas_no_justificadas'];
 
-          // Calcular conteo de faltas por mes
-          const faltasPorMes = {};
-          justificadas.concat(no_justificadas).forEach(falta => {
-            const fecha = falta.fecha;
-            const mes = fecha.split('/')[1];
-            if (!faltasPorMes[mes]) {
-              faltasPorMes[mes] = 0;
-            }
-            faltasPorMes[mes]++;
-          });
-
-          const asignaturaElement = document.createElement('div');
-          asignaturaElement.innerHTML = `<h2>Asignatura: ${asignatura}</h2>
-                                         <p>Total de faltas: ${totalFaltas}</p>
-                                         <p>Faltas justificadas: ${justificadas.length}</p>
-                                         <p>Faltas no justificadas: ${no_justificadas.length}</p>
-                                         <p>Porcentaje de faltas no justificadas: ${porcentajeNoJustificadas.toFixed(2)}%</p>
-                                         <p>Conteo de faltas por mes:</p>`;
-
-          const faltasPorMesElement = document.createElement('ul');
-          for (const mes in faltasPorMes) {
-            faltasPorMesElement.innerHTML += `<li>Mes ${mes}: ${faltasPorMes[mes]}</li>`;
-          }
-          asignaturaElement.appendChild(faltasPorMesElement);
-          faltasContainer.appendChild(asignaturaElement);
-        }
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  </script>
+                // Recorre cada asignatura y muestra la información
+                for (let asignatura in porcentaje_faltas) {
+                    let p = document.createElement('p');
+                    p.textContent = `Asignatura: ${asignatura}, Faltas NO JUSTIFICADAS: ${faltas_no_justificadas[asignatura]}, Porcentaje: ${porcentaje_faltas[asignatura].toFixed(2)}%`;
+                    content.appendChild(p);
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
 </body>
 </html>
-</body>
-</html>
+
