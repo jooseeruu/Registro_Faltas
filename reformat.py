@@ -48,9 +48,9 @@ for line in data:
         'Duracion': duration
     }
 
-    # Si la asistencia es 'Asistencia NO JUSTIFICADA', suma la duración a las faltas de la asignatura
+    # Si la asistencia es 'Asistencia NO JUSTIFICADA', suma 1 a las faltas de la asignatura
     if status == 'Asistencia NO JUSTIFICADA':
-        faltas_asignaturas[details] += duration
+        faltas_asignaturas[details] += 1
 
     # Agrega la entrada al conjunto de datos
     asistencia_data.append(asistencia_entry)
@@ -63,4 +63,3 @@ with open('asistencia.json', 'w', encoding='utf-8') as json_file:
     json.dump({'Asistencia': asistencia_data, 'Faltas_no_justificadas': faltas_asignaturas, 'Porcentaje_faltas': porcentaje_faltas}, json_file, ensure_ascii=False, indent=4)
 
 print("Archivo JSON generado con éxito: 'asistencia.json'")
-

@@ -266,19 +266,19 @@
         }
     ],
     "Faltas_no_justificadas": {
-        "Desarrollo web en entorno cliente": 2.75,
-        "Desarrollo web en entorno servidor": 7.333333333333334,
-        "Despliegue de aplicaciones web": 4.583333333333333,
-        "Diseño de interfaces web": 0.9166666666666666,
-        "Empresa e iniciativa emprendedora": 3.6666666666666665,
+        "Desarrollo web en entorno cliente": 3,
+        "Desarrollo web en entorno servidor": 8,
+        "Despliegue de aplicaciones web": 5,
+        "Diseño de interfaces web": 1,
+        "Empresa e iniciativa emprendedora": 4,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
-        "Desarrollo web en entorno cliente": 2.1999999999999997,
-        "Desarrollo web en entorno servidor": 4.583333333333334,
-        "Despliegue de aplicaciones web": 5.092592592592593,
-        "Diseño de interfaces web": 0.5555555555555555,
-        "Empresa e iniciativa emprendedora": 6.111111111111111,
+        "Desarrollo web en entorno cliente": 2.4,
+        "Desarrollo web en entorno servidor": 5.0,
+        "Despliegue de aplicaciones web": 5.555555555555555,
+        "Diseño de interfaces web": 0.6060606060606061,
+        "Empresa e iniciativa emprendedora": 6.666666666666667,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     }
 }
