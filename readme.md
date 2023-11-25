@@ -22,7 +22,7 @@ El archivo `asistencia.html` es el punto de entrada al sitio web y se encuentra 
 2. Abre el archivo `asistencia.html` en tu navegador para ver la tabla de asistencia.
 3. Los datos de asistencia se cargan en `asistencia.txt` siguiendo el formato de ejemplo, compila `procesar_asistencia.py`.
 4. Se generará un archivo `asistentia.json` que será utilizado por `asistencia.js`.
-5. Compila `asistencia.html`y verás tus faltas ordenadas en una tabla.
+5. Compila con *Live Server* `asistencia.html`y verás tus faltas ordenadas en una tabla.
 
 ## Contribuir
 
