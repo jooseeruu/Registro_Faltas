@@ -1,0 +1,43 @@
+body {
+    background: rgb(128,128,128);
+    background: -moz-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
+    background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#c0c0c0",GradientType=1);
+}
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #3f3f3f;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgb(190, 190, 190);
+    background: -moz-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
+    background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#c0c0c0",GradientType=1);
+    font-size: 20px;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+th, td {
+    border: 2px solid #3f3f3f;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+

@@ -1,11 +1,14 @@
 import json
+import os
 from datetime import datetime
 
+# Función para leer los datos de asistencia desde un archivo
 def leer_asistencia():
-    with open('asistencia.txt', 'r', encoding='utf-8') as file:
+    with open('data/asistencia.txt', 'r', encoding='utf-8') as file:
         data = file.readlines()
     return data
 
+# Función para procesar los datos de asistencia
 def procesar_asistencia(data, faltas_asignaturas):
     asistencia_data = []
     for line in data:
@@ -17,7 +20,7 @@ def procesar_asistencia(data, faltas_asignaturas):
         time_slots = parts[1].split(' (')[1].split(')')[0].split('-')
         start_time = datetime.strptime(time_slots[0], "%H:%M")
         end_time = datetime.strptime(time_slots[1], "%H:%M")
-        duration = (end_time - start_time).seconds / 3600
+        duration = (end_time - start_time).seconds / 60  
         asistencia_entry = {
             'Fecha': date,
             'Asistencia': status,
@@ -31,14 +34,18 @@ def procesar_asistencia(data, faltas_asignaturas):
         asistencia_data.append(asistencia_entry)
     return asistencia_data
 
+# Función para calcular el porcentaje de faltas
 def calcular_porcentaje_faltas(faltas_asignaturas, horas_asignaturas):
     porcentaje_faltas = {asignatura: (faltas / horas) * 100 for asignatura, faltas, horas in zip(faltas_asignaturas.keys(), faltas_asignaturas.values(), horas_asignaturas.values())}
     return porcentaje_faltas
 
+# Función para escribir los datos procesados en un archivo JSON
 def escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas):
-    with open('asistencia.json', 'w', encoding='utf-8') as json_file:
+    os.makedirs('data', exist_ok=True)
+    with open('data/asistencia.json', 'w', encoding='utf-8') as json_file:
         json.dump({'Asistencia': asistencia_data, 'Faltas_no_justificadas': faltas_asignaturas, 'Porcentaje_faltas': porcentaje_faltas}, json_file, ensure_ascii=False, indent=4)
 
+# Función principal que llama a las demás funciones
 def main():
     horas_asignaturas = {
         'Desarrollo web en entorno cliente': 125,
@@ -55,6 +62,6 @@ def main():
     escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas)
     print("Archivo JSON generado con éxito: 'asistencia.json'")
 
+# Comprueba si el script se está ejecutando directamente
 if __name__ == "__main__":
     main()
-
