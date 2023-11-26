@@ -39,11 +39,16 @@ def calcular_porcentaje_faltas(faltas_asignaturas, horas_asignaturas):
     porcentaje_faltas = {asignatura: (faltas / horas) * 100 for asignatura, faltas, horas in zip(faltas_asignaturas.keys(), faltas_asignaturas.values(), horas_asignaturas.values())}
     return porcentaje_faltas
 
+# Función para calcular el número de faltas restantes hasta el 15%
+def calcular_faltas_restantes(faltas_asignaturas, horas_asignaturas):
+    faltas_restantes = {asignatura: int(horas * 0.15) - faltas for asignatura, faltas, horas in zip(faltas_asignaturas.keys(), faltas_asignaturas.values(), horas_asignaturas.values())}
+    return faltas_restantes
+
 # Función para escribir los datos procesados en un archivo JSON
-def escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas):
+def escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas, faltas_restantes):
     os.makedirs('data', exist_ok=True)
     with open('data/asistencia.json', 'w', encoding='utf-8') as json_file:
-        json.dump({'Asistencia': asistencia_data, 'Faltas_no_justificadas': faltas_asignaturas, 'Porcentaje_faltas': porcentaje_faltas}, json_file, ensure_ascii=False, indent=4)
+        json.dump({'Asistencia': asistencia_data, 'Faltas_no_justificadas': faltas_asignaturas, 'Porcentaje_faltas': porcentaje_faltas, 'Faltas_restantes': faltas_restantes}, json_file, ensure_ascii=False, indent=4)
 
 # Función principal que llama a las demás funciones
 def main():
@@ -59,7 +64,8 @@ def main():
     data = leer_asistencia()
     asistencia_data = procesar_asistencia(data, faltas_asignaturas)
     porcentaje_faltas = calcular_porcentaje_faltas(faltas_asignaturas, horas_asignaturas)
-    escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas)
+    faltas_restantes = calcular_faltas_restantes(faltas_asignaturas, horas_asignaturas)
+    escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas, faltas_restantes)
     print("Archivo JSON generado con éxito: 'asistencia.json'")
 
 # Comprueba si el script se está ejecutando directamente

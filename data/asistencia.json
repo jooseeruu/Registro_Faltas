@@ -280,5 +280,13 @@
         "Diseño de interfaces web": 0.6060606060606061,
         "Empresa e iniciativa emprendedora": 6.666666666666667,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
+    },
+    "Faltas_restantes": {
+        "Desarrollo web en entorno cliente": 15,
+        "Desarrollo web en entorno servidor": 16,
+        "Despliegue de aplicaciones web": 8,
+        "Diseño de interfaces web": 23,
+        "Empresa e iniciativa emprendedora": 5,
+        "Proyecto de Desarrollo de Aplicaciones Web": 6
     }
 }
