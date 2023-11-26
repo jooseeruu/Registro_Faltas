@@ -1,3 +1,9 @@
+/**
+ * Ordena los datos según el criterio especificado.
+ * @param {Object} datos - Los datos a ordenar.
+ * @param {string} orden - El criterio de ordenamiento ('porcentaje', 'faltas', 'faltas_restantes').
+ * @returns {Array} - Los datos ordenados en forma descendente.
+ */
 export function ordenarDatos(datos, orden) {
     let datosOrdenados;
     switch (orden) {
