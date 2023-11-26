@@ -18,6 +18,16 @@ h1 {
     font-family: 'Krub', sans-serif;
     font-family: 'Orbitron', sans-serif;
 }
+button {
+    background-color: #3f3f3f;
+    color: #f4f4f4;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-family: 'Krub', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
 
 table {
     width: 100%;
@@ -39,5 +49,6 @@ th, td {
     font-family: 'Krub', sans-serif;
     font-family: 'Orbitron', sans-serif;
 }
+
 
 
