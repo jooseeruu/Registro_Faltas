@@ -11,9 +11,9 @@
   </head>
   <body>
     <h1>Asistencia</h1>
-    <button onclick="cargarDatosAsistencia('porcentaje')">Ordenar por Porcentaje</button>
-    <button onclick="cargarDatosAsistencia('faltas')">Ordenar por Faltas</button>
-    <button onclick="cargarDatosAsistencia('faltas_restantes')">Ordenar por Faltas Restantes</button>
+    <button id="porcentajeButton">Ordenar por Porcentaje</button>
+    <button id="faltasButton">Ordenar por Faltas</button>
+    <button id="faltasRestantesButton">Ordenar por Faltas Restantes</button>
     <table id="asistenciaTable">
       <tr>
         <th>Asignatura</th>
@@ -23,7 +23,8 @@
       </tr>
     </table>
 
-    <script src="/src/js/asistencia.js"></script>
+    <script type="module" src="/src/js/main.js"></script>
+
     <script>
       document.addEventListener('DOMContentLoaded', (event) => {
         cargarDatosAsistencia('porcentaje');  // Ordena por porcentaje por defecto
