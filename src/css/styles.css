@@ -1,63 +1,57 @@
 body {
-    background: rgb(128,128,128);
-    background: -moz-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
     background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#c0c0c0",GradientType=1);
-}
-
-
-body {
-    background-color: #f4f4f4;
 }
 
 h1 {
     color: #3f3f3f;
     text-align: center;
-    font-size: 40px;
-    font-family: 'Krub', sans-serif;
+    font-size: 50px;
     font-family: 'Orbitron', sans-serif;
+    animation: glow 2s infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+        text-shadow: none;
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #3f3f3f, 0 0 70px #3f3f3f, 0 0 80px #3f3f3f, 0 0 100px #3f3f3f, 0 0 150px #3f3f3f;
+    }
 }
 
 button {
     background-color: #3f3f3f;
     text-align: center;
     color: #f4f4f4;
-    font-size: 18px;
-    padding: 14px 20px;
+    font-size: 20px;
+    padding: 20px;
     margin: 8px 0;
     border-radius: 0%;
     cursor: pointer;
-    font-family: 'Krub', sans-serif;
     font-family: 'Orbitron', sans-serif;
     transition: transform 0.3s ease;
 }
 
 button:active {
-    transform: scale(0.95);
+    transform: scale(0.85);
 }
-
 
 table {
     width: 100%;
     border-collapse: collapse;
-    background: rgb(190, 190, 190);
-    background: -moz-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
     background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#c0c0c0",GradientType=1);
-    font-size: 20px;
-    font-family: 'Krub', sans-serif;
-    font-family: 'Orbitron', sans-serif;
 }
 
 th, td {
     border: 2px solid #3f3f3f;
     padding: 8px;
     text-align: center;
-    font-family: 'Krub', sans-serif;
     font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
 }
+
 
 
 
