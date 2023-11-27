@@ -5,7 +5,7 @@ export function crearTabla(datosOrdenados, datos) {
     const tabla = document.getElementById('asistenciaTable');
 
     // Limpia el contenido de la tabla
-    tabla.innerHTML = '<tr><th>Asignatura</th><th>Faltas</th><th>Porcentaje de Faltas</th><th>Faltas Restantes</th></tr>';
+    tabla.innerHTML = '<tr><th>Asignatura</th><th>Faltas</th><th>Porcentaje de Faltas</th><th>Faltas Restantes</th><th>Impacto por Falta</th></tr>';
 
     // Itera sobre los datos ordenados
     for (let [asignatura,] of datosOrdenados) {
@@ -17,11 +17,13 @@ export function crearTabla(datosOrdenados, datos) {
         let celda2 = fila.insertCell(1);
         let celda3 = fila.insertCell(2);
         let celda4 = fila.insertCell(3);
+        let celda5 = fila.insertCell(4);
 
         // Asigna los valores correspondientes a cada celda
         celda1.innerHTML = asignatura;
         celda2.innerHTML = datos['Faltas_no_justificadas'][asignatura];
         celda3.innerHTML = (datos['Porcentaje_faltas'][asignatura] * 1).toFixed(2) + '%';
         celda4.innerHTML = datos['Faltas_restantes'][asignatura];
+        celda5.innerHTML = (datos['Valor_porcentaje_falta'][asignatura] * 1).toFixed(2) + '%';
     }
 }

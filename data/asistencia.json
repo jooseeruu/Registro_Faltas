@@ -288,5 +288,13 @@
         "Diseño de interfaces web": 23,
         "Empresa e iniciativa emprendedora": 5,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
+    },
+    "Valor_porcentaje_falta": {
+        "Desarrollo web en entorno cliente": 0.8,
+        "Desarrollo web en entorno servidor": 0.625,
+        "Despliegue de aplicaciones web": 1.1111111111111112,
+        "Diseño de interfaces web": 0.6060606060606061,
+        "Empresa e iniciativa emprendedora": 1.6666666666666667,
+        "Proyecto de Desarrollo de Aplicaciones Web": 2.5
     }
 }

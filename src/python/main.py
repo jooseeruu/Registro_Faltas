@@ -1,6 +1,6 @@
 # Importa las funciones necesarias de otros módulos
 from asistencia import leer_asistencia, procesar_asistencia
-from calculos import calcular_porcentaje_faltas, calcular_faltas_restantes
+from calculos import calcular_porcentaje_faltas, calcular_faltas_restantes, calcular_valor_porcentaje_falta
 from archivo import escribir_json
 
 def main():
@@ -23,8 +23,10 @@ def main():
     porcentaje_faltas = calcular_porcentaje_faltas(faltas_asignaturas, horas_asignaturas)
     # Calcula las faltas restantes hasta el 15% para cada asignatura
     faltas_restantes = calcular_faltas_restantes(faltas_asignaturas, horas_asignaturas)
+    # Calcula el valor del porcentaje de cada falta según la asignatura
+    valor_porcentaje_falta = calcular_valor_porcentaje_falta(faltas_asignaturas, horas_asignaturas)
     # Escribe los datos procesados en un archivo JSON
-    escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas, faltas_restantes)
+    escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas, faltas_restantes, valor_porcentaje_falta)
     print("Archivo JSON generado con éxito: 'asistencia.json'")
 
 # Comprueba si el script se está ejecutando directamente

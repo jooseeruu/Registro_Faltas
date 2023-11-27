@@ -9,4 +9,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     document.querySelector('#porcentajeButton').addEventListener('click', () => cargarDatosAsistencia('porcentaje'));
     document.querySelector('#faltasButton').addEventListener('click', () => cargarDatosAsistencia('faltas'));
     document.querySelector('#faltasRestantesButton').addEventListener('click', () => cargarDatosAsistencia('faltas_restantes'));
+    document.querySelector('#valorPorcentajeFaltaButton').addEventListener('click', () => cargarDatosAsistencia('valor_porcentaje_falta'));
 });
+
