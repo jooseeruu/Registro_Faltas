@@ -263,11 +263,27 @@
             "Hora_inicio": "18:45",
             "Hora_fin": "19:40",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "29/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "29/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
         "Desarrollo web en entorno cliente": 3,
-        "Desarrollo web en entorno servidor": 8,
+        "Desarrollo web en entorno servidor": 10,
         "Despliegue de aplicaciones web": 5,
         "Diseño de interfaces web": 1,
         "Empresa e iniciativa emprendedora": 4,
@@ -275,7 +291,7 @@
     },
     "Porcentaje_faltas": {
         "Desarrollo web en entorno cliente": 2.4,
-        "Desarrollo web en entorno servidor": 5.0,
+        "Desarrollo web en entorno servidor": 6.25,
         "Despliegue de aplicaciones web": 5.555555555555555,
         "Diseño de interfaces web": 0.6060606060606061,
         "Empresa e iniciativa emprendedora": 6.666666666666667,
@@ -283,7 +299,7 @@
     },
     "Faltas_restantes": {
         "Desarrollo web en entorno cliente": 15,
-        "Desarrollo web en entorno servidor": 16,
+        "Desarrollo web en entorno servidor": 14,
         "Despliegue de aplicaciones web": 8,
         "Diseño de interfaces web": 23,
         "Empresa e iniciativa emprendedora": 5,
