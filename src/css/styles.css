@@ -37,14 +37,14 @@ button:active {
     transform: scale(0.85);
 }
 
-table {
+#asistenciaTable {
     width: 100%;
     border-collapse: collapse;
     background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#c0c0c0",GradientType=1);
 }
 
-th, td {
+#asistenciaTable th, #asistenciaTable td {
     border: 2px solid #3f3f3f;
     padding: 8px;
     text-align: center;
@@ -52,6 +52,19 @@ th, td {
     font-size: 30px;
 }
 
+/* Estilos CSS para pantallas con un ancho de 720px o menos */
+@media (max-width: 720px) {
+    button {
+        font-size: 16px;
+        padding: 15px;
+    }
 
+    #asistenciaTable {
+        font-size: 20px;
+    }
 
-
+    #asistenciaTable th, #asistenciaTable td {
+        padding: 5px;
+        font-size: 18px;
+    }
+}

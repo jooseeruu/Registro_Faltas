@@ -279,6 +279,14 @@
             "Hora_inicio": "20:35",
             "Hora_fin": "21:30",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "30/11/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
@@ -286,7 +294,7 @@
         "Desarrollo web en entorno servidor": 10,
         "Despliegue de aplicaciones web": 5,
         "Diseño de interfaces web": 1,
-        "Empresa e iniciativa emprendedora": 4,
+        "Empresa e iniciativa emprendedora": 5,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
@@ -294,7 +302,7 @@
         "Desarrollo web en entorno servidor": 6.25,
         "Despliegue de aplicaciones web": 5.555555555555555,
         "Diseño de interfaces web": 0.6060606060606061,
-        "Empresa e iniciativa emprendedora": 6.666666666666667,
+        "Empresa e iniciativa emprendedora": 8.333333333333332,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
     "Faltas_restantes": {
@@ -302,7 +310,7 @@
         "Desarrollo web en entorno servidor": 14,
         "Despliegue de aplicaciones web": 8,
         "Diseño de interfaces web": 23,
-        "Empresa e iniciativa emprendedora": 5,
+        "Empresa e iniciativa emprendedora": 4,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
     },
     "Valor_porcentaje_falta": {
