@@ -53,18 +53,18 @@ button:active {
 }
 
 /* Estilos CSS para pantallas con un ancho de 720px o menos */
-@media (max-width: 720px) {
+@media (max-width: 800px) {
     button {
         font-size: 16px;
         padding: 15px;
     }
 
     #asistenciaTable {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #asistenciaTable th, #asistenciaTable td {
         padding: 5px;
-        font-size: 18px;
+        font-size: 15px;
     }
 }
