@@ -2,7 +2,7 @@ import pymongo
 
 def conectar():
     try:
-        client = pymongo.MongoClient("mongodb+srv://jooseeruu:qwertyuiop@registrofaltas.7wztcqn.mongodb.net/")
+        client = pymongo.MongoClient("mongodb+srv://jooseeruu:<password>@registrofaltas.7wztcqn.mongodb.net/")
         db = client["registrofaltas"] 
         coleccion = db["asistencia"]
         return coleccion
