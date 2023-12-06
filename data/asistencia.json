@@ -287,30 +287,54 @@
             "Hora_inicio": "20:35",
             "Hora_fin": "21:30",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "05/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "05/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "05/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
         "Desarrollo web en entorno cliente": 3,
         "Desarrollo web en entorno servidor": 10,
         "Despliegue de aplicaciones web": 5,
-        "Diseño de interfaces web": 1,
-        "Empresa e iniciativa emprendedora": 5,
+        "Diseño de interfaces web": 2,
+        "Empresa e iniciativa emprendedora": 7,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
         "Desarrollo web en entorno cliente": 2.4,
         "Desarrollo web en entorno servidor": 6.25,
         "Despliegue de aplicaciones web": 5.555555555555555,
-        "Diseño de interfaces web": 0.6060606060606061,
-        "Empresa e iniciativa emprendedora": 8.333333333333332,
+        "Diseño de interfaces web": 1.2121212121212122,
+        "Empresa e iniciativa emprendedora": 11.666666666666666,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
     "Faltas_restantes": {
         "Desarrollo web en entorno cliente": 15,
         "Desarrollo web en entorno servidor": 14,
         "Despliegue de aplicaciones web": 8,
-        "Diseño de interfaces web": 23,
-        "Empresa e iniciativa emprendedora": 4,
+        "Diseño de interfaces web": 22,
+        "Empresa e iniciativa emprendedora": 2,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
     },
     "Valor_porcentaje_falta": {
