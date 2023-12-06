@@ -1,2 +1,4 @@
 src/python/__pycache__/
 db/__pycache__/
+db/conexion.py
+
