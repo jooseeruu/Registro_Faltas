@@ -1,29 +1,39 @@
+/*  #606C5D
+    #FFF4F4
+    #F7E6C4
+    #F1C376 */
+/* Estilos generales */
 body {
-    background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#c0c0c0",GradientType=1);
+    background: radial-gradient(circle, #606C5D 0%, #F1C376 100%);
+    /* Fallback para IE */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#606C5D",endColorstr="#F1C376",GradientType=1);
 }
 
+/* Estilos para encabezados h1 */
 h1 {
-    color: #3f3f3f;
+    color: #000000;
     text-align: center;
     font-size: 50px;
     font-family: 'Orbitron', sans-serif;
+    /* Animación de brillo */
     animation: glow 2s infinite;
 }
 
+/* Animación 'glow' para h1 */
 @keyframes glow {
     0%, 100% {
         text-shadow: none;
     }
     50% {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #3f3f3f, 0 0 70px #3f3f3f, 0 0 80px #3f3f3f, 0 0 100px #3f3f3f, 0 0 150px #3f3f3f;
+        text-shadow: 0 0 10px #FFF4F4, 0 0 20px #FFF4F4, 0 0 30px #FFF4F4, 0 0 40px #606C5D, 0 0 70px #606C5D, 0 0 80px #606C5D, 0 0 100px #606C5D, 0 0 150px #606C5D;
     }
 }
 
+/* Estilos para botones */
 button {
-    background-color: #3f3f3f;
+    background-color: #606C5D;
     text-align: center;
-    color: #f4f4f4;
+    color: #000000;
     font-size: 20px;
     padding: 20px;
     margin: 8px 0;
@@ -33,26 +43,31 @@ button {
     transition: transform 0.3s ease;
 }
 
+/* Efecto de escala al presionar botón */
 button:active {
     transform: scale(0.85);
 }
 
+/* Estilos para la tabla */
 #asistenciaTable {
     width: 100%;
     border-collapse: collapse;
-    background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(192,192,192,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#808080",endColorstr="#c0c0c0",GradientType=1);
+    background: radial-gradient(circle, #606C5D 0%, #F1C376 100%);
+    /* Fallback para IE */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#606C5D",endColorstr="#F1C376",GradientType=1);
 }
 
-#asistenciaTable th, #asistenciaTable td {
-    border: 2px solid #3f3f3f;
+/* Estilos para encabezados y celdas de la tabla */
+#asistenciaTable th,
+#asistenciaTable td {
+    border: 2px solid #F1C376;
     padding: 8px;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
 }
 
-/* Estilos CSS para pantallas con un ancho de 720px o menos */
+/* Estilos para pantallas con ancho de 800px o menos */
 @media (max-width: 800px) {
     button {
         font-size: 16px;
@@ -63,7 +78,8 @@ button:active {
         font-size: 15px;
     }
 
-    #asistenciaTable th, #asistenciaTable td {
+    #asistenciaTable th,
+    #asistenciaTable td {
         padding: 5px;
         font-size: 15px;
     }
