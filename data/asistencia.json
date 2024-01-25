@@ -343,29 +343,205 @@
             "Hora_inicio": "20:35",
             "Hora_fin": "21:30",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "19/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "19/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "19/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "19/12/2023",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "10/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "10/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "10/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "19/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "19/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "19/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "23/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "23/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "23/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "24/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "18:45",
+            "Hora_fin": "19:40",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "24/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "24/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno servidor",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
-        "Desarrollo web en entorno cliente": 3,
-        "Desarrollo web en entorno servidor": 13,
-        "Despliegue de aplicaciones web": 6,
-        "Diseño de interfaces web": 2,
+        "Desarrollo web en entorno cliente": 5,
+        "Desarrollo web en entorno servidor": 19,
+        "Despliegue de aplicaciones web": 9,
+        "Diseño de interfaces web": 13,
         "Empresa e iniciativa emprendedora": 7,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
-        "Desarrollo web en entorno cliente": 2.4,
-        "Desarrollo web en entorno servidor": 8.125,
-        "Despliegue de aplicaciones web": 6.666666666666667,
-        "Diseño de interfaces web": 1.2121212121212122,
+        "Desarrollo web en entorno cliente": 4.0,
+        "Desarrollo web en entorno servidor": 11.875,
+        "Despliegue de aplicaciones web": 10.0,
+        "Diseño de interfaces web": 7.878787878787878,
         "Empresa e iniciativa emprendedora": 11.666666666666666,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
     "Faltas_restantes": {
-        "Desarrollo web en entorno cliente": 15,
-        "Desarrollo web en entorno servidor": 11,
-        "Despliegue de aplicaciones web": 7,
-        "Diseño de interfaces web": 22,
+        "Desarrollo web en entorno cliente": 13,
+        "Desarrollo web en entorno servidor": 5,
+        "Despliegue de aplicaciones web": 4,
+        "Diseño de interfaces web": 11,
         "Empresa e iniciativa emprendedora": 2,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
     },
