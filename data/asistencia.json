@@ -519,29 +519,53 @@
             "Hora_inicio": "20:35",
             "Hora_fin": "21:30",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "29/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "29/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "29/01/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Despliegue de aplicaciones web",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
-        "Desarrollo web en entorno cliente": 5,
+        "Desarrollo web en entorno cliente": 6,
         "Desarrollo web en entorno servidor": 19,
-        "Despliegue de aplicaciones web": 9,
-        "Diseño de interfaces web": 13,
+        "Despliegue de aplicaciones web": 10,
+        "Diseño de interfaces web": 14,
         "Empresa e iniciativa emprendedora": 7,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
-        "Desarrollo web en entorno cliente": 4.0,
+        "Desarrollo web en entorno cliente": 4.8,
         "Desarrollo web en entorno servidor": 11.875,
-        "Despliegue de aplicaciones web": 10.0,
-        "Diseño de interfaces web": 7.878787878787878,
+        "Despliegue de aplicaciones web": 11.11111111111111,
+        "Diseño de interfaces web": 8.484848484848486,
         "Empresa e iniciativa emprendedora": 11.666666666666666,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
     "Faltas_restantes": {
-        "Desarrollo web en entorno cliente": 13,
+        "Desarrollo web en entorno cliente": 12,
         "Desarrollo web en entorno servidor": 5,
-        "Despliegue de aplicaciones web": 4,
-        "Diseño de interfaces web": 11,
+        "Despliegue de aplicaciones web": 3,
+        "Diseño de interfaces web": 10,
         "Empresa e iniciativa emprendedora": 2,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
     },
