@@ -24,7 +24,7 @@ def main():
     # Calcula las faltas restantes hasta el 15% para cada asignatura
     faltas_restantes = calcular_faltas_restantes(faltas_asignaturas, horas_asignaturas)
     # Calcula el valor del porcentaje de cada falta según la asignatura
-    valor_porcentaje_falta = calcular_valor_porcentaje_falta(faltas_asignaturas, horas_asignaturas)
+    valor_porcentaje_falta = calcular_valor_porcentaje_falta(horas_asignaturas)
     # Escribe los datos procesados en un archivo JSON
     escribir_json(asistencia_data, faltas_asignaturas, porcentaje_faltas, faltas_restantes, valor_porcentaje_falta)
     print("Archivo JSON generado con éxito: 'asistencia.json'")

@@ -11,7 +11,7 @@ def calcular_faltas_restantes(faltas_asignaturas, horas_asignaturas):
     return faltas_restantes
 
 # Función para calcular el valor del porcentaje de cada falta según la asignatura
-def calcular_valor_porcentaje_falta(faltas_asignaturas, horas_asignaturas):
+def calcular_valor_porcentaje_falta(horas_asignaturas):
     # Calcula el valor del porcentaje de cada falta según la asignatura
     valor_porcentaje_falta = {asignatura: (1 / horas) * 100 for asignatura, horas in zip(horas_asignaturas.keys(), horas_asignaturas.values())}
     return valor_porcentaje_falta
