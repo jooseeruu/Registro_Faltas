@@ -57,7 +57,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     var options = {
       title: orden,
       hAxis: { title: "Asignatura", titleTextStyle: { color: "#333" } },
-      vAxis: { minValue: 0 }
+      vAxis: { minValue: 0 },
+      backgroundColor: "transparent"
     };
 
     var chart = new google.visualization.AreaChart(document.getElementById("myChart"));
