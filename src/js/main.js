@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const datos = await respuesta.json();
     const datosOrdenados = ordenarDatos(datos, orden);
     crearTabla(datosOrdenados, datos);
+    crearGrafico(datosOrdenados, datos);
   }
 
   function ordenarDatos(datos, orden) {
@@ -32,12 +33,44 @@ document.addEventListener("DOMContentLoaded", async () => {
     datosOrdenados.forEach(([asignatura]) => {
       const fila = tabla.insertRow(-1);
       fila.innerHTML = `
-                <td>${asignatura}</td>
-                <td>${datos["Faltas_no_justificadas"][asignatura]}</td>
-                <td>${(datos["Porcentaje_faltas"][asignatura] * 1).toFixed(2)}%</td>
-                <td>${datos["Faltas_restantes"][asignatura]}</td>
-                <td>${(datos["Valor_porcentaje_falta"][asignatura] * 1).toFixed(2)}%</td>
-            `;
+                  <td>${asignatura}</td>
+                  <td>${datos["Faltas_no_justificadas"][asignatura]}</td>
+                  <td>${(datos["Porcentaje_faltas"][asignatura] * 1).toFixed(2)}%</td>
+                  <td>${datos["Faltas_restantes"][asignatura]}</td>
+                  <td>${(datos["Valor_porcentaje_falta"][asignatura] * 1).toFixed(
+                    2
+                  )}%</td>
+              `;
+    });
+  }
+
+  function crearGrafico(datosOrdenados, datos) {
+    const ctx = document.getElementById("myChart").getContext("2d");
+    const labels = datosOrdenados.map(([asignatura]) => asignatura);
+    const data = labels.map((asignatura) => datos["Porcentaje_faltas"][asignatura]);
+
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            label: "Porcentaje de Faltas",
+            data: data,
+            backgroundColor: "rgba(75, 192, 192, 0.2)",
+            borderColor: "rgba(75, 192, 192, 1)",
+            borderWidth: 1
+          }
+        ]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 15 // Aquí estableces el valor máximo de la escala del eje y
+          }
+        }
+      }
     });
   }
 });
