@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Faltas de Asistencia</title>
     <link rel="stylesheet" type="text/css" href="/src/css/styles.css" />
-    <!-- Asegúrate de incluir Chart.js en tu proyecto -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
   </head>
   <body>
     <h1>Faltas de Asistencia</h1>
@@ -25,8 +27,7 @@
         <th>Impacto por Falta</th>
       </tr>
     </table>
-    <!-- Aquí es donde se mostrará el gráfico -->
-    <canvas id="myChart" style="width: 400px; height: 300px"></canvas>
+    <div id="myChart"></div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

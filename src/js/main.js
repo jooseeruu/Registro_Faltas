@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const datos = await respuesta.json();
     const datosOrdenados = ordenarDatos(datos, orden);
     crearTabla(datosOrdenados, datos);
-    crearGrafico(datosOrdenados, datos);
+    google.charts.load("current", { packages: ["corechart"] });
+    google.charts.setOnLoadCallback(() => crearGrafico(datosOrdenados, datos, orden));
   }
 
   function ordenarDatos(datos, orden) {
@@ -44,33 +45,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  function crearGrafico(datosOrdenados, datos) {
-    const ctx = document.getElementById("myChart").getContext("2d");
+  function crearGrafico(datosOrdenados, datos, orden) {
     const labels = datosOrdenados.map(([asignatura]) => asignatura);
-    const data = labels.map((asignatura) => datos["Porcentaje_faltas"][asignatura]);
+    const data = labels.map((asignatura) => datos[orden][asignatura]);
 
-    new Chart(ctx, {
-      type: "bar",
-      data: {
-        labels: labels,
-        datasets: [
-          {
-            label: "Porcentaje de Faltas",
-            data: data,
-            backgroundColor: "rgba(75, 192, 192, 0.2)",
-            borderColor: "rgba(75, 192, 192, 1)",
-            borderWidth: 1
-          }
-        ]
-      },
-      options: {
-        scales: {
-          y: {
-            beginAtZero: true,
-            max: 15 // Aquí estableces el valor máximo de la escala del eje y
-          }
-        }
-      }
-    });
+    var dataGoogle = new google.visualization.DataTable();
+    dataGoogle.addColumn("string", "Asignatura");
+    dataGoogle.addColumn("number", orden);
+    dataGoogle.addRows(labels.map((label, i) => [label, data[i]]));
+
+    var options = {
+      title: orden,
+      hAxis: { title: "Asignatura", titleTextStyle: { color: "#333" } },
+      vAxis: { minValue: 0 }
+    };
+
+    var chart = new google.visualization.AreaChart(document.getElementById("myChart"));
+    chart.draw(dataGoogle, options);
   }
 });

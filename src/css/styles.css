@@ -79,3 +79,9 @@ button:active {
     padding: 3px;
   }
 }
+
+#myChart {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
