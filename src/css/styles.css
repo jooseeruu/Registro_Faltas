@@ -1,88 +1,81 @@
-/*  #606C5D
-    #FFF4F4
-    #F7E6C4
-    #F1C376 */
+/* Colores pastel */
+/* #D8A7B1 (rosa pastel)
+   #C3DDE6 (azul pastel)
+   #F3E7D7 (beige pastel)
+   #D1E2BF (verde pastel) */
+
 /* Estilos generales */
 body {
-  background: radial-gradient(circle, #ffffff 0%, #00ffc8 100%);
-  /* Fallback para IE */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#606C5D",endColorstr="#F1C376",GradientType=1);
+  background: #f3e7d7;
 }
 
 /* Estilos para encabezados h1 */
 h1 {
   color: #000000;
   text-align: center;
-  font-size: 50px;
-  font-family: "Orbitron", sans-serif;
-  /* Animación de brillo */
-  animation: glow 2s infinite;
-}
-
-/* Animación 'glow' para h1 */
-@keyframes glow {
-  0%,
-  100% {
-    text-shadow: none;
-  }
-  50% {
-    text-shadow: 0 0 10px #fff4f4, 0 0 20px #fff4f4, 0 0 30px #fff4f4, 0 0 40px #606c5d,
-      0 0 70px #606c5d, 0 0 80px #606c5d, 0 0 100px #606c5d, 0 0 150px #606c5d;
-  }
+  font-size: 4em;
+  font-family: "Helvetica", sans-serif;
 }
 
 /* Estilos para botones */
 button {
-  background-color: #000000;
+  background-color: #d1e2bf;
   text-align: center;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 20px;
-  margin: 8px 0;
-  border-radius: 0%;
+  color: #333;
+  font-size: 1em;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
   cursor: pointer;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Helvetica", sans-serif;
   transition: transform 0.3s ease;
+}
+
+/* Estilo para el contenedor de botones */
+.Button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.Button-container button {
+  margin: 0 10px;
 }
 
 /* Efecto de escala al presionar botón */
 button:active {
-  transform: scale(0.85);
+  transform: scale(0.95);
 }
 
 /* Estilos para la tabla */
 #asistenciaTable {
   width: 100%;
   border-collapse: collapse;
-  background: radial-gradient(circle, #ffffff 0%, #ff0000 100%);
-  /* Fallback para IE */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#606C5D",endColorstr="#F1C376",GradientType=1);
+  background: #c3dde6;
 }
 
 /* Estilos para encabezados y celdas de la tabla */
 #asistenciaTable th,
 #asistenciaTable td {
-  border: 2px solid #f1c376;
-  padding: 8px;
+  border: 1px solid #000000;
+  padding: 5px;
   text-align: center;
-  font-family: "Orbitron", sans-serif;
-  font-size: 30px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1em;
 }
 
 /* Estilos para pantallas con ancho de 800px o menos */
 @media (max-width: 800px) {
   button {
-    font-size: 16px;
-    padding: 15px;
+    font-size: 0.8em;
+    padding: 8px;
   }
 
   #asistenciaTable {
-    font-size: 15px;
+    font-size: 0.8em;
   }
 
   #asistenciaTable th,
   #asistenciaTable td {
-    padding: 5px;
-    font-size: 15px;
+    padding: 3px;
   }
 }
