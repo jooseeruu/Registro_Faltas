@@ -54,14 +54,30 @@ document.addEventListener("DOMContentLoaded", async () => {
     dataGoogle.addColumn("number", orden);
     dataGoogle.addRows(labels.map((label, i) => [label, data[i]]));
 
-    var options = {
-      title: orden,
-      hAxis: { title: "Asignatura", titleTextStyle: { color: "#333" } },
-      vAxis: { minValue: 0 },
-      backgroundColor: "transparent"
+    // Define un objeto con los colores para cada asignatura
+    var coloresAsignaturas = {
+      "Desarrollo web en entorno cliente": "#FFB6C1", // LightPink
+      "Desarrollo web en entorno servidor": "#ADD8E6", // LightBlue
+      "Despliegue de aplicaciones web": "#98FB98", // PaleGreen
+      "Diseño de interfaces web": "#FFFACD", // LemonChiffon
+      "Empresa e iniciativa emprendedora": "#FFDAB9", // PeachPuff
+      "Proyecto de Desarrollo de Aplicaciones Web": "#E6E6FA" // Lavender
+      // Añade más asignaturas y colores según sea necesario
     };
 
-    var chart = new google.visualization.AreaChart(document.getElementById("myChart"));
+    // Usa el objeto de colores para definir los colores del gráfico
+    var coloresGrafico = labels.map((asignatura) => coloresAsignaturas[asignatura]);
+
+    var options = {
+      title: orden,
+      is3D: true,
+      pieHole: 0.4,
+      colors: coloresGrafico,
+      backgroundColor: "transparent",
+      pieSliceTextStyle: { color: "black" }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById("myChart"));
     chart.draw(dataGoogle, options);
   }
 });
