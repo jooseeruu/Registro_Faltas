@@ -567,13 +567,37 @@
             "Hora_inicio": "17:20",
             "Hora_fin": "18:15",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "06/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "06/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "06/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "17:20",
+            "Hora_fin": "18:15",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
         "Desarrollo web en entorno cliente": 7,
         "Desarrollo web en entorno servidor": 19,
         "Despliegue de aplicaciones web": 10,
-        "Diseño de interfaces web": 16,
+        "Diseño de interfaces web": 19,
         "Empresa e iniciativa emprendedora": 7,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
@@ -581,7 +605,7 @@
         "Desarrollo web en entorno cliente": 5.6000000000000005,
         "Desarrollo web en entorno servidor": 11.875,
         "Despliegue de aplicaciones web": 11.11111111111111,
-        "Diseño de interfaces web": 9.696969696969697,
+        "Diseño de interfaces web": 11.515151515151516,
         "Empresa e iniciativa emprendedora": 11.666666666666666,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
@@ -589,7 +613,7 @@
         "Desarrollo web en entorno cliente": 11,
         "Desarrollo web en entorno servidor": 5,
         "Despliegue de aplicaciones web": 3,
-        "Diseño de interfaces web": 8,
+        "Diseño de interfaces web": 5,
         "Empresa e iniciativa emprendedora": 2,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
     },
