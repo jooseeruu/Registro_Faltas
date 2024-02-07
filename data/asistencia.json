@@ -591,10 +591,18 @@
             "Hora_inicio": "17:20",
             "Hora_fin": "18:15",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "07/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
-        "Desarrollo web en entorno cliente": 7,
+        "Desarrollo web en entorno cliente": 8,
         "Desarrollo web en entorno servidor": 19,
         "Despliegue de aplicaciones web": 10,
         "Diseño de interfaces web": 19,
@@ -602,7 +610,7 @@
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
-        "Desarrollo web en entorno cliente": 5.6000000000000005,
+        "Desarrollo web en entorno cliente": 6.4,
         "Desarrollo web en entorno servidor": 11.875,
         "Despliegue de aplicaciones web": 11.11111111111111,
         "Diseño de interfaces web": 11.515151515151516,
@@ -610,7 +618,7 @@
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
     "Faltas_restantes": {
-        "Desarrollo web en entorno cliente": 11,
+        "Desarrollo web en entorno cliente": 10,
         "Desarrollo web en entorno servidor": 5,
         "Despliegue de aplicaciones web": 3,
         "Diseño de interfaces web": 5,
