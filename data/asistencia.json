@@ -607,29 +607,45 @@
             "Hora_inicio": "18:45",
             "Hora_fin": "19:40",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "12/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "15:30",
+            "Hora_fin": "16:25",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "12/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Desarrollo web en entorno cliente",
+            "Hora_inicio": "16:25",
+            "Hora_fin": "17:20",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
-        "Desarrollo web en entorno cliente": 8,
+        "Desarrollo web en entorno cliente": 9,
         "Desarrollo web en entorno servidor": 19,
         "Despliegue de aplicaciones web": 11,
-        "Diseño de interfaces web": 19,
+        "Diseño de interfaces web": 20,
         "Empresa e iniciativa emprendedora": 7,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
-        "Desarrollo web en entorno cliente": 6.4,
+        "Desarrollo web en entorno cliente": 7.199999999999999,
         "Desarrollo web en entorno servidor": 11.875,
         "Despliegue de aplicaciones web": 12.222222222222221,
-        "Diseño de interfaces web": 11.515151515151516,
+        "Diseño de interfaces web": 12.121212121212121,
         "Empresa e iniciativa emprendedora": 11.666666666666666,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
     "Faltas_restantes": {
-        "Desarrollo web en entorno cliente": 10,
+        "Desarrollo web en entorno cliente": 9,
         "Desarrollo web en entorno servidor": 5,
         "Despliegue de aplicaciones web": 2,
-        "Diseño de interfaces web": 5,
+        "Diseño de interfaces web": 4,
         "Empresa e iniciativa emprendedora": 2,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
     },
