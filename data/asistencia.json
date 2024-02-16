@@ -639,30 +639,46 @@
             "Hora_inicio": "16:25",
             "Hora_fin": "17:20",
             "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Diseño de interfaces web",
+            "Hora_inicio": "19:40",
+            "Hora_fin": "20:35",
+            "Duracion": 55.0
+        },
+        {
+            "Fecha": "15/02/2024",
+            "Asistencia": "Asistencia NO JUSTIFICADA",
+            "Clase": "Empresa e iniciativa emprendedora",
+            "Hora_inicio": "20:35",
+            "Hora_fin": "21:30",
+            "Duracion": 55.0
         }
     ],
     "Faltas_no_justificadas": {
         "Desarrollo web en entorno cliente": 11,
         "Desarrollo web en entorno servidor": 19,
         "Despliegue de aplicaciones web": 11,
-        "Diseño de interfaces web": 20,
-        "Empresa e iniciativa emprendedora": 7,
+        "Diseño de interfaces web": 21,
+        "Empresa e iniciativa emprendedora": 8,
         "Proyecto de Desarrollo de Aplicaciones Web": 0
     },
     "Porcentaje_faltas": {
         "Desarrollo web en entorno cliente": 8.799999999999999,
         "Desarrollo web en entorno servidor": 11.875,
         "Despliegue de aplicaciones web": 12.222222222222221,
-        "Diseño de interfaces web": 12.121212121212121,
-        "Empresa e iniciativa emprendedora": 11.666666666666666,
+        "Diseño de interfaces web": 12.727272727272727,
+        "Empresa e iniciativa emprendedora": 13.333333333333334,
         "Proyecto de Desarrollo de Aplicaciones Web": 0.0
     },
     "Faltas_restantes": {
         "Desarrollo web en entorno cliente": 7,
         "Desarrollo web en entorno servidor": 5,
         "Despliegue de aplicaciones web": 2,
-        "Diseño de interfaces web": 4,
-        "Empresa e iniciativa emprendedora": 2,
+        "Diseño de interfaces web": 3,
+        "Empresa e iniciativa emprendedora": 1,
         "Proyecto de Desarrollo de Aplicaciones Web": 6
     },
     "Valor_porcentaje_falta": {
